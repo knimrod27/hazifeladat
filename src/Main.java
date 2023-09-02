@@ -8,6 +8,7 @@ public class Main {
         String[] myString = {"asztal", "haz", "agy", "fogkefe", "szek", "borond"};
         arrayString(myString);
         System.out.println("================");
+        myMEthod();
 
     }
 
@@ -25,6 +26,9 @@ public class Main {
                 System.out.println(num);
             }
         }
+    }
+    public static void myMEthod() {
+        System.out.println("hi");
     }
 
     public static void arrayString(String[] array) {
